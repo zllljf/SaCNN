@@ -1,0 +1,15 @@
+net: "/home/zll/OPT/SaCNN-CrowdCounting-Tencent_Youtu/SaCNN-master/trainrcl64.prototxt"
+#test_iter: 316
+#test_interval: 800
+display: 2400
+base_lr: 1e-8
+average_loss: 2400
+lr_policy: "step"
+gamma: 0.1
+stepsize: 110400
+max_iter: 120000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 700000
+snapshot_prefix: "/home/zll/OPT/SaCNN-CrowdCounting-Tencent_Youtu/SaCNN-master/result_c/pretrain"
+solver_mode: GPU 

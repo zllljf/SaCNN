@@ -1,0 +1,4 @@
+total test images are 1896
+MAE      MSE
+[6.2900205] [14.986305]
+

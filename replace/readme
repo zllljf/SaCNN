@@ -1,0 +1,7 @@
+replace caffe/include/caffe with caffeofinclude
+replace caffe/src/caffe with caffeofsrc
+add lmdb2txt.cpp to caffe/tools
+
+THEN
+make clean
+make all
